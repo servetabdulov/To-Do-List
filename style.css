@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+  .block {
+    width: 29.167vw;
+    text-align: center;
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 0.868vw;
+  }
+  .yellow {
+    background-color: rgba(255, 220, 64, 1);
+    height: 28px;
+    border-top-left-radius: 0.868vw;
+    border-top-right-radius: 0.868vw;
+  }
+  .downIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2.604vw;
+    opacity: 0.4;
+    cursor: pointer;
+  }
+  .downIcon:hover {
+    opacity: 3;
+  }
+  .upIcon {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1.042vw;
+    margin-right: 2.604vw;
+    opacity: 0.4;
+    cursor: pointer;
+  }
+  .upIcon:hover {
+    opacity: 3;
+  }
+  .toDoList {
+    width: 24.826vw;
+    max-height: 17.361vw;
+    border: 1px solid #c4c4c4;
+    border-radius: 0.868vw;
+    margin: auto;
+    margin-top: 1.042vw;
+    overflow: auto;
+    overflow-x: hidden;
+    display: block;
+  }
+  .divLi {
+    margin: 1.532vw 2.604vw 1.532vw 2.344vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: auto;
+  }
+  .newDivLi{
+    margin: 1.532vw 2.604vw 1.532vw 2.344vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: auto;
+  }
+  .input,.new_Input {
+    width: 90%;
+    border: none;
+    cursor: grabbing;
+  }
+  .input:focus, .new_Input:focus {
+    outline: none;
+  }
+  .divLiClear, .divLiRemove {
+    box-sizing: border-box;
+    width: 1.736vw;
+    height: 1.736vw;
+    border: 1px solid #c4c4c4;
+    border-radius: 6.163vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divLiClear:hover, .divLiRemove:hover {
+    background-color: #833ae0;
+    border: 1px solid #833ae0;
+    cursor: pointer;
+  }
+  .addButton {
+    margin: 1.563vw 0 1.649vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .action {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    border-radius: 6.163vw;
+    width: 13.021vw;
+    height: 3.646vw;
+    background: rgba(131, 58, 224, 1);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .action:hover{
+    background-color: #681fc7;
+  }
+  .plus{
+    width: 3.646vw;
+    height: 3.646vw;
+    border-radius: 6.163vw;
+    background: rgba(153, 83, 241, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add{
+    margin-right: 4.861vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
